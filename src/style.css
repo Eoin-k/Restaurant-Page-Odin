@@ -1,0 +1,33 @@
+body {
+   color: red;
+   padding: 2rem;
+   display: flex;
+   gap: 3rem;
+   flex-direction: column;
+}
+
+.btn {
+   color: white;
+   padding: 1em 1.5em;
+   background-color: orange;
+   border-radius: 1em;
+}
+
+.nav{
+   display: flex;
+   flex-direction: row;
+   margin: 0 auto;
+   max-width: 400px;
+   gap: 1rem;
+   border: 1px solid blue;
+   justify-content: center;
+}
+#content{
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   max-width: 600px;
+   border: 1px solid red;
+   gap: 2rem;
+   width: 100%;
+}
