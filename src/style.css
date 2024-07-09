@@ -9,6 +9,7 @@
    margin: 0;
 }
 body {
+   font-family: "Noto Sans",Arial, Helvetica, sans-serif;
    padding: 2rem;
    display: flex;
    gap: 1.5rem;
@@ -131,11 +132,14 @@ box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.75);
    text-align: center;
 }
 
-.home-body{
+.home-body,.about-body{
    display: flex;
+   flex-direction: column;
    max-width: 55ch;
    align-self: center;
+   gap: 1rem;
 }
+
 
 .home-images-wrapper{
    display: grid;
@@ -172,6 +176,14 @@ box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.75);
    align-self: center;
 
 }
+.about-header {
+   align-self: center;
+   text-decoration: underline;
+   font-size: 2.5rem;
+   text-align: center;
+}
+
+
 @media screen and (max-width: 762px) {
    .starters,.mains,.dessert,.drinks {
       display:grid;
@@ -184,3 +196,4 @@ box-shadow: 2px 2px 9px 0px rgba(0,0,0,0.75);
       font-size: 1rem;
    }
 }
+
